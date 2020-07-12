@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--los script para bootstrap, iconos, etc.-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUMEA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--para que la pagina se adapte a las diferentes pantallas-->
+    <!--segundo body es para poner una imagen de fondo-->
+    <style>
+        body {
+            position: relative
+        }
+        
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #eff3ef;
+        }
+        
+        p {
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #314044;
+        }
+        
+        body {
+            background-image: url(".jpg/AZUL-compressor.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        #direcion {
+            color: aquamarine;
+        }
+        
+        a:link,
+        a:visited {
+            background-color: hsla(271, 96%, 70%, 0.2);
+            color: white;
+            padding: 9px 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover,
+        a:active {
+            background-color: rgba(89, 3, 248, 0.651);
+        }
+        
+        div.inset {
+            border-style: inset;
+        }
+        
+        .carousel-inner img_ {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
+</head>
+<!--primero el titulo y luego la foto-->
+
+<body data - spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="Konnichiwa" class="container-fluid inset" style="text-align: center;">
+        <h1>
+            <p class="text-white" style="font-size:300%;text-align: center;"><strong><em> BIENVENIDO</em></strong></p>
+        </h1>
+    </div>
+    <!--el vh-100 es para que la pagina se ajuste a las diferntes pantallas-->
+    <div id="image" class="carousel slide vh-100" data-ride="carousel" data-interval="5000" data-pause="hover">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#image" data-slide-to="0" class="active"></li>
+            <li data-target="#image" data-slide-to="1"></li>
+            <li data-target="#image" data-slide-to="2"></li>
+            <li data-target="#image" data-slide-to="3"></li>
+            <li data-target="#image" data-slide-to="4"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner vh-100 inset">
+            <div class="carousel-item active">
+                <img class="img-fluid mx-auto d-block" src=".jpg/IMG-20200204-WA0006-compressor.jpg" alt="Anais Pineda" width="100%" height="500">
+            </div>
+            <div class="carousel-item">
+                <iframe src="https://www.youtube.com/embed/tt6QO2Ma6tg?controls=0" width="100%" height="900">HOJA DE VIDA Y CARTA DE PRESENTACIÓN</iframe>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block" src=".jpg/ruta-celma-BFz3Q0Q_YF8-unsplash-(1)-compressor.jpg" alt="Pintura de Montañas" width="1100%" height="500">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block" src=".jpg/jorge-fernandez--Vcjq80W6VE-unsplash-compressor.jpg" alt="Belleza Natural" width="1100%" height="500">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block" src=".jpg/elena-mozhvilo-Sx4lXe396AQ-unsplash-compressor.jpg" alt="Pintura de Pulpito" width="1100%" height="500">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <div id="cont_corousel">
+            <a class="carousel-control-prev" href="#image" data-slide="prev" role="button">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#image" data-slide="next" role="button">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <div class="bg-dark text-light inset" style="font-size:300%;text-align: center;"><strong><em>ANAIS PINEDA NAVARRO</em></strong></div>
+    <!--la barra de navegacion-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center sticky-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#collapsibleNavbar">
+            <img class="img-fluid mx-auto d-block" src=".jpg\jeremy-zero-DMyOJFLxSd8-unsplash-compressor.jpg" alt="logo" style="width:70px;">
+        </a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav text-white">
+                <li class="nav-item text-white">
+                    <a class="nav-link" href="#Konnichiwa"><strong>Inicio</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resumen"> Resumen Profesional</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#educacion"> Educación</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#habilidades"> Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#voluntariado"> Voluntariado</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lenguajes"> Lenguajes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#direccion">Dirección</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#descarga">Descargar CV y Formulario</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <!--rellenando los parametros con la informacion de mi resume, con los estilos de tamaño de letra, color de fondo, cursiva, negrita, etc.-->
+    <div class="resume inset">
+        <div id="resumen" class="container-fluid bg-dark text-white" style="padding-top:100px;padding-bottom:70px;text-align:center;">
+            <h1 style="font-size:500%;"><strong> Resumen Profesional</strong></h1>
+            <p style="font-size:300%;">Me mantengo calmada en una crisis y puedo ser un líder cuando es necesario, no tengo miedo de hacer preguntas para completar el trabajo con éxito, aprendo rapido, me siento cómoda al iniciar un diálogo y soy una gran oyente.</p>
+        </div>
+    </div>
+    <br>
+    <div id="educacion" class="container-fluid text-white inset" style="padding-top:70px;padding-bottom:70px;text-align:center;">
+        <h1 style="font-size:400%;"><strong>Educación</strong></h1>
+        <p style="font-size:200%;">Desarrollador de software | Academia de desarrolladores de software | FUNDADER Esperando Graduacion | 2020</p>
+        <p style="font-size:200%;">Curso de Manejo de Aplicaciones de Office | FUNDADER | 2019</p>
+        <p style="font-size:200%;">Curso de ingles | FUNDADER | 2019</p>
+        <p style="font-size:200%;">Curso de Imagen Personal y Proyección Profesional | FUNDADER | 2019</p>
+        <p style="font-size:200%;">Bachiller en Ciencias con énfasis en Infrormatica | Centro Educativo Laboral Bellas Luces | 2017</p>
+    </div>
+    <br>
+    <div id="habilidades" class="container-fluid bg-dark text-white inset" style="padding-top:70px;padding-bottom:70px;text-align:center;">
+        <h1 style="font-size:400%;"> Habilidades</h1>
+        <p style="font-size:200%;"> Manejo programas de Microsoft Office(Word, Excel, PowerPoint).</p>
+        <p style="font-size:200%;">Manejo Microsoft Windows 10.</p>
+        <p style="font-size:200%;">Grandes habilidades de trabajo en grupo y de comunicación con mi equipo.</p>
+        <p style="font-size:200%;"> Honesta, puntual, cortés, cooperativa y tranquila.</p>
+    </div>
+    <br>
+    <div id="voluntariado" class="container-fluid text-white inset" style="padding-top:70px;padding-bottom:70px;text-align:center;">
+        <h1 style="font-size:400%;"> Voluntariado</h1>
+        <p style="font-size:200%;">Limpieza de la playa de Vacamonte.</p>
+        <p style="font-size:200%;">Actualidad: escribo cartas para alentar a las personas y al personal médico.</p>
+        <p style="font-size:200%;">2018 - Actualidad - Rescaté cachorros.</p>
+    </div>
+    <br>
+    <div id="lenguajes" class="container-fluid bg-dark text-white inset" style="padding-top:70px;padding-bottom:70px;text-align:center;">
+        <h1 style="font-size:400%;"> Lenguajes</h1>
+        <p style="font-size:200%;">Español: Lenguaje Natal</p>
+        <p style="font-size:200%;">Ingles: Basico(hablado, escritura, lectura)</p>
+    </div>
+    <br>
+    <!--las redes sociales y la direccion-->
+    <div id="direccion" class="container-fluid text-white inset" style="padding-top:70px;padding-bottom:70px;text-align:center;">
+        <h3 style="font-size:400%;">Dirección</h3>
+        <h3 style="font-size:300%;text-align: center;">Visitame en:</h3>
+        <div class="container text-center col col-md-5" style="padding-top: 150px;">
+            <div class="row">
+                <div class="col col-xl-15" style="text-align: center;">
+                    <a href="https://www.linkedin.com/in/ana%C3%ADs-pineda-18b3931aa/" target="_blank"><i class="fab fa-linkedin fa-5x" style="text-align: center;"></i></a>
+                    <p style="font-size:300%;text-align: center;">Linkedin</p>
+                </div>
+                <br>
+                <br>
+                <div class="col col-xl-15 text-center">
+                    <a href="https://github.com/Akatsuki40" target="_blank"><i class="fab fa-github fa-5x"></i></a>
+                    <p style="font-size:300%;text-align: center;">Github</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col col-sm-5"></div>
+                <h5 style="font-size:300%; text-align: center;">Panamá - Panamá Oeste, El Tecal - Vacamonte</h5>
+                <h5 style="font-size:300%; text-align: center;">Teléfono: 6891-4944 - Email: any091279@gmail.com</h5>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--aqui la descarga con el formulario(OBLIGATORIO DE LLENAR)-->
+    <div class="container-fluid">
+        <div id="descarga" class="jumbotron text-left vh-100 bg-dark text-white inset" style="padding-top:70px;padding-bottom:70px;text-align:center;">
+            <h2 style="font-size:400%;">Formulario</h2>
+            <div class="row justify-content-sm-left">
+                <div class="col col-sm-8">
+                    <h2 style="text-align:left;"> Contacteme y deje sus consultas</h2>
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+                        <div class="messages"></div>
+                        <div class="controls" style="text-align: right;">
+                            <div class="row" style="text-align: center;">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="form_name"> Nombre *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Ingrese Su Nombre *" required="required" data - error="Porfavor Ingrese Su Nombre."></input>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <label for="form_lastname"> Apellido *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Ingrese Su Apellido *" required="required" data - error="Porfavor Ingrese Su Apellido."></input>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="col-md-4" style="text-align: center;">
+                                    <h6 class="text-right" style="text-align: center;"><em><strong>HOJA DE VIDA Y CARTA DE PRESENTACION ENLACES:</strong></em></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="text-align: center;">
+                            <div class="col-sm-4">
+                                <div class="form-group" style="text-align: right;">
+                                    <label for="form_email"> Correo *</label>
+                                    <input id="form_email" type="text" name="email" class="form-control" placeholder="Ingrese Su Correo" required="required" data - error="Porfavor Ingrese Su Correo"></input>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4" style="text-align: center;">
+                                <div class="form-group" style="text-align: right;">
+                                    <label for="form_need"> Elija *</label>
+                                    <select id="form_need" name="seleccionar" class="form-control" required="required" data - error="Porfavor seleccione lo que desea.">
+                                    <option value="entrevista"> Realizar una Entrevista</option>
+                                    <option value="aclaraciónCV">Preguntas sobre la hoja de vida</option>
+                                    <option value="problemaCV">No puedo ver el CV</option>
+                                    <option value="problemaCP">No puedo ver la CP</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-dark">
+                                        <span style="cursor:pointer"></span>
+                                        <a href=".pdf\Anaís_Pineda_Navarro-Resume_Template-English.pdf" target="_blank">CV_INGLES</a>
+                                    </button>
+                                    <button type="button" class="btn btn-dark">
+                                        <a href=".pdf\Anaís_Pineda_Navarr-Resume_Template-Español.pdf" target="_blank">CV_ESPAÑOL</a>
+                                    </button>
+                                    <button type="button" class="btn btn-dark">
+                                        <a href=".pdf\Anaís Pineda Navarro - Cover Letter_English.pdf" target="_blank">CP_INGLES</a>
+                                    </button>
+                                    <button type="button" class="btn btn-dark">
+                                        <a href=".pdf\Anaís_Pineda_Navarro - Cover_Letter_Español.pdf" target="_blank">CP_ESPAÑOL</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <!--el detalle su eleccion y el boton de enviar-->
+                        <div class="text-center row" style="text-align: center;">
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="form_message"> Detalle *</label>
+                                    <textarea id="form_message" name="mensaje" class="form-control" placeholder="Escriba Su Mensaje *" rows="5" required="required" data - error="Mencione mas detalladamente lo que selecciono antes."></textarea>
+                                    <div class="help-block with-errors">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="text-center col-lg-4" style="text-align: center;">
+                                <h6>CV y Carta de Presentación en Ingles----></h6>
+                            </div>
+                            <div class="text-center col-lg-4" style="text-align: center;">
+                                <iframe width="445" height="445" src="https://www.youtube.com/embed/tt6QO2Ma6tg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>HOJA DE VIDA Y CARTA DE PRESENTACIÓN</iframe>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center bg-primary col-lg-2" style="text-align: center;">
+                            <input type="submit" class="btn btn-succes btn-send" value="Enviar"></input>
+                        </div>
+                        <div class="text-center row" style="text-align: center;">
+                            <div class="col-md-6">
+                                <p class="text-muted"><strong>*</strong>Campos Obligatorios.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            // Activate Carousel
+            $("#image").carousel();
+
+            // Enable Carousel Indicators
+            $(".item1").click(function() {
+                $("#image").carousel(0);
+            });
+            $(".item2").click(function() {
+                $("#image").carousel(1);
+            });
+            $(".item3").click(function() {
+                $("#image").carousel(2);
+            });
+            $(".item4").click(function() {
+                $("#image").carousel(3);
+            });
+            $(".item5").click(function() {
+                $("#image").carousel(4);
+            });
+
+            // Enable Carousel Controls
+            $(".carousel-control-prev").click(function() {
+                $("#image").carousel("prev");
+            });
+            $(".carousel-control-next").click(function() {
+                $("#image").carousel("next");
+            });
+        });
+    </script>
+</body>
+
+</html>
